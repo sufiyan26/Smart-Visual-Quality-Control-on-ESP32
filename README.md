@@ -1,4 +1,4 @@
-# Smart Visual Quality Control on ESP32
+# Smart Visual Quality Control on ESP32 
 
 **TinyML-ready production line inspector** running on ESP32 (Wokwi simulation). Processes 100-frame batches, extracts brightness/texture/edge features, runs `runDefectInference()`, classifies OK/DEFECT, and reports defect rates over serial. Architecture supports seamless TensorFlow Lite Micro integration.
 
